@@ -1,6 +1,6 @@
 # Stillhorn — Google Flow video prompts
 
-Generate each clip in Google Flow (labs.google/flow), download as MP4, and save it in the `videos/` folder
+Generate each clip in Google Flow (labs.google/flow), download as MP4, and save it in the `public/videos/` folder
 with the exact filename shown. The page picks each one up automatically; until a file exists, the
 drawn/CSS fallback is shown instead.
 
@@ -15,7 +15,7 @@ drawn/CSS fallback is shown instead.
 ---
 
 ## 1. Hero — no video needed
-The hero is now a live, interactive Three.js 3D scene (`world.js`): scrolling flies the camera over the
+The hero is now a live, interactive Three.js 3D scene (`lib/scenes/world.js`): scrolling flies the camera over the
 peaks down to the cabin and up to the aurora. The clips below fill the film chapters and cards, styled to match it.
 
 ## 2. `ascent.mp4` — Chapter 01, The Ascent
